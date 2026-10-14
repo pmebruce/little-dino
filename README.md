@@ -8,6 +8,11 @@
 - 聽名字選恐龍、看特徵猜恐龍；入門與挑戰模式。
 - 搜尋、食性篩選、收藏、離線快取。
 
+## 正式網站
+
+- Cloudflare：https://little-dino.pmebruce.workers.dev/
+- GitHub Pages：https://pmebruce.github.io/little-dino/
+
 ## 發布
 
 本專案不需要建置；靜態網頁檔案位於程式庫根目錄。
