@@ -1,0 +1,292 @@
+{
+  "tyrannosaurus": {
+    "src": "./photos/tyrannosaurus.webp",
+    "title": "Sues skeleton.jpg",
+    "author": "Connie Ma",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "type": "骨架展示",
+    "caption": "芝加哥菲爾德博物館的 Sue 暴龍骨架展示。完整展示會包含補配部分，頭骨展示方式也可能使用複製件。",
+    "source": "https://commons.wikimedia.org/wiki/File:Sues_skeleton.jpg"
+  },
+  "triceratops": {
+    "src": "./photos/triceratops.webp",
+    "title": "A Triceratops skeleton.jpg",
+    "author": "Vanadium Erbium",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "type": "骨架展示",
+    "caption": "三角龍的骨架展示照片。觀察頭骨上的角和寬大的頭盾。照片來源未說明每塊骨骼是否為原始化石。",
+    "source": "https://commons.wikimedia.org/wiki/File:A_Triceratops_skeleton.jpg"
+  },
+  "stegosaurus": {
+    "src": "./photos/stegosaurus.webp",
+    "title": "Stegosaurus Skeleton.jpg",
+    "author": "Motokoka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "type": "骨架展示",
+    "caption": "東京國立科學博物館的劍龍骨架展示。觀察背上骨板與尾端尖刺；展示可能包含複製與補配骨骼。",
+    "source": "https://commons.wikimedia.org/wiki/File:Stegosaurus_Skeleton.jpg"
+  },
+  "brachiosaurus": {
+    "src": "./photos/brachiosaurus.webp",
+    "title": "Brachiosaurus mount.jpg",
+    "author": "Matt Wedel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "type": "復原骨架展示",
+    "caption": "菲爾德博物館外的腕龍復原骨架，以腕龍正模標本為基礎，缺失部分參考近親長頸巨龍補配。",
+    "source": "https://commons.wikimedia.org/wiki/File:Brachiosaurus_mount.jpg"
+  },
+  "ankylosaurus": {
+    "src": "./photos/ankylosaurus.webp",
+    "title": "Ankylosaurus Skeleton (31556851166).jpg",
+    "author": "Gary Todd",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "type": "骨架展示",
+    "caption": "江西省博物館的甲龍骨架展示照片，依照片來源標示為甲龍。展品可能包含複製與復原部分。",
+    "source": "https://commons.wikimedia.org/wiki/File:Ankylosaurus_Skeleton_(31556851166).jpg"
+  },
+  "velociraptor": {
+    "src": "./photos/velociraptor.webp",
+    "title": "Velociraptor skeleton.jpg",
+    "author": "Eduard Solà Vázquez (Esv)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "type": "骨架展示",
+    "caption": "比利時皇家自然科學研究所的迅猛龍骨架展示。骨架照片不會保留牠生前的羽毛外觀。",
+    "source": "https://commons.wikimedia.org/wiki/File:Velociraptor_skeleton.jpg"
+  },
+  "diplodocus": {
+    "src": "./photos/diplodocus.webp",
+    "title": "Diplodocus skeleton NMNH.jpg",
+    "author": "Ryan Schwark",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "type": "骨架展示",
+    "caption": "史密森尼國立自然史博物館 Deep Time 展區的梁龍骨架展示。注意長脖子與細長的尾巴。",
+    "source": "https://commons.wikimedia.org/wiki/File:Diplodocus_skeleton_NMNH.jpg"
+  },
+  "parasaurolophus": {
+    "src": "./photos/parasaurolophus.webp",
+    "title": "FMNH Parasaurolophus fossil.jpg",
+    "author": "Zissoudisctrucker",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "type": "化石骨架展示",
+    "caption": "菲爾德博物館的副櫛龍化石骨架展示照片。這個展示的頭冠較彎，屬內不同種類的頭冠形狀會不同；展示也可能包含補配部分。",
+    "source": "https://commons.wikimedia.org/wiki/File:FMNH_Parasaurolophus_fossil.jpg"
+  },
+  "tyrannosaurus-model": {
+    "src": "./photos/tyrannosaurus-model.webp",
+    "title": "Animatronic Tyrannosaurus Rex (36444760946).jpg",
+    "author": "Gary Todd",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "type": "復原模型實拍",
+    "caption": "倫敦自然史博物館的暴龍實體復原模型照片。這是模型，不是活恐龍照片；皮膚顏色和部分外觀是復原推測。",
+    "source": "https://commons.wikimedia.org/wiki/File:Animatronic_Tyrannosaurus_Rex_(36444760946).jpg"
+  },
+  "tyrannosaurus-life": {
+    "title": "Tyrannosaurus Rex OC Harfa Praha.jpg",
+    "author": "Mojmir Churavy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tyrannosaurus_Rex_OC_Harfa_Praha.jpg",
+    "caption": "暴龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。",
+    "type": "模型照片",
+    "src": "./photos/tyrannosaurus-life.webp"
+  },
+  "triceratops-life": {
+    "src": "./photos/triceratops-life.webp",
+    "title": "Triceratops, DinoPark Vyškov.jpg",
+    "author": "DinoTeam",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "type": "模型照片",
+    "caption": "戶外三角龍模型照片。看看牠鼻子上的一根角，和眼睛上方的兩根角。",
+    "source": "https://commons.wikimedia.org/wiki/File:Triceratops,_DinoPark_Vyškov.jpg"
+  },
+  "stegosaurus-life": {
+    "src": "./photos/stegosaurus-life.webp",
+    "title": "Stegosaurus, DinoPark Košice.jpg",
+    "author": "DinoTeam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "type": "模型照片",
+    "caption": "戶外劍龍模型照片。紅色的背板和尾巴上的尖刺很容易辨認。模型配色是復原設計。",
+    "source": "https://commons.wikimedia.org/wiki/File:Stegosaurus,_DinoPark_Košice.jpg"
+  },
+  "brachiosaurus-life": {
+    "src": "./photos/brachiosaurus-life.webp",
+    "title": "Brachiosaurus, DinoPark Ostrava.JPG",
+    "author": "DinoTeam",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "type": "模型照片",
+    "caption": "戶外腕龍模型照片。長長的脖子伸向天空，旁邊的人能幫助我們想像牠有多高。",
+    "source": "https://commons.wikimedia.org/wiki/File:Brachiosaurus,_DinoPark_Ostrava.JPG"
+  },
+  "ankylosaurus-life": {
+    "src": "./photos/ankylosaurus-life.webp",
+    "title": "Ankylosaurus, DinoPark Praha.jpg",
+    "author": "DinoTeam",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "type": "模型照片",
+    "caption": "戶外甲龍模型照片。牠背上有骨甲，尾巴末端有尾槌。",
+    "source": "https://commons.wikimedia.org/wiki/File:Ankylosaurus,_DinoPark_Praha.jpg"
+  },
+  "velociraptor-life": {
+    "title": "Modell eines Velociraptors.jpg",
+    "author": "Chrisi1964",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Modell_eines_Velociraptors.jpg",
+    "caption": "迅猛龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。這是展示用模型，部分手部姿勢或頭部細節與目前研究不同。",
+    "type": "模型照片",
+    "src": "./photos/velociraptor-life.webp"
+  },
+  "diplodocus-life": {
+    "src": "./photos/diplodocus-life.webp",
+    "title": "Diplodocus model.jpg",
+    "author": "Boris Dimitrov",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "type": "模型照片",
+    "caption": "戶外梁龍模型照片。牠的脖子很長，尾巴也像長長的鞭子。",
+    "source": "https://commons.wikimedia.org/wiki/File:Diplodocus_model.jpg"
+  },
+  "parasaurolophus-life": {
+    "src": "./photos/parasaurolophus-life.webp",
+    "title": "Parasaurolophus, DinoPark Košice.jpg",
+    "author": "DinoTeam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "type": "模型照片",
+    "caption": "戶外副櫛龍模型照片。牠頭頂往後延伸的長頭冠，是認出牠的好線索。",
+    "source": "https://commons.wikimedia.org/wiki/File:Parasaurolophus,_DinoPark_Košice.jpg"
+  },
+  "spinosaurus-life": {
+    "title": "Spinosaurus, Expo Dinosaurios 2023 - A740932.jpg",
+    "author": "Rjcastillo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Spinosaurus,_Expo_Dinosaurios_2023_-_A740932.jpg",
+    "caption": "棘龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。展示的姿勢是模型設計，不代表科學家已確定牠如何行走；棘龍的陸上與水中活動方式仍在研究。",
+    "type": "模型照片",
+    "src": "./photos/spinosaurus-life.webp"
+  },
+  "allosaurus-life": {
+    "title": "Allosaurus, DinoPark Košice.jpg",
+    "author": "DinoTeam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Allosaurus,_DinoPark_Ko%C5%A1ice.jpg",
+    "caption": "異特龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。",
+    "type": "模型照片",
+    "src": "./photos/allosaurus-life.webp"
+  },
+  "carnotaurus-life": {
+    "title": "Dino - Carnotaurus - 1.jpg",
+    "author": "Emőke Dénes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dino_-_Carnotaurus_-_1.jpg",
+    "caption": "牛龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。",
+    "type": "模型照片",
+    "src": "./photos/carnotaurus-life.webp"
+  },
+  "dilophosaurus-life": {
+    "title": "Baltow JuraPark dilophosaurus wetherilli.jpg",
+    "author": "Krugerr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Baltow_JuraPark_dilophosaurus_wetherilli.jpg",
+    "caption": "雙冠龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。這是展示用模型，部分手部姿勢或頭部細節與目前研究不同。",
+    "type": "模型照片",
+    "src": "./photos/dilophosaurus-life.webp"
+  },
+  "iguanodon-life": {
+    "title": "Iguanodon, DinoPark Košice.jpg",
+    "author": "DinoTeam",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Iguanodon,_DinoPark_Ko%C5%A1ice.jpg",
+    "caption": "禽龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。",
+    "type": "模型照片",
+    "src": "./photos/iguanodon-life.webp"
+  },
+  "pachycephalosaurus-life": {
+    "title": "Pachycephalosaurus OC Harfa Praha.jpg",
+    "author": "Mojmir Churavy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pachycephalosaurus_OC_Harfa_Praha.jpg",
+    "caption": "厚頭龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。這是展示用模型，部分手部姿勢或頭部細節與目前研究不同。",
+    "type": "模型照片",
+    "src": "./photos/pachycephalosaurus-life.webp"
+  },
+  "styracosaurus-life": {
+    "title": "Styracosaurus-Modell.jpg",
+    "author": "Leoistcool",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Styracosaurus-Modell.jpg",
+    "caption": "戟龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。",
+    "type": "模型照片",
+    "src": "./photos/styracosaurus-life.webp"
+  },
+  "therizinosaurus-life": {
+    "title": "Therizinosaurus OC Harfa Praha A.jpg",
+    "author": "Mojmir Churavy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Therizinosaurus_OC_Harfa_Praha_A.jpg",
+    "caption": "鐮刀龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。",
+    "type": "模型照片",
+    "src": "./photos/therizinosaurus-life.webp"
+  },
+  "apatosaurus-life": {
+    "title": "Apatosaurus 2x OC Harfa Praha.jpg",
+    "author": "Mojmir Churavy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Apatosaurus_2x_OC_Harfa_Praha.jpg",
+    "caption": "迷惑龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。",
+    "type": "模型照片",
+    "src": "./photos/apatosaurus-life.webp"
+  },
+  "ornithomimus-life": {
+    "title": "Ornithomimus OC Harfa Praha.jpg",
+    "author": "Mojmir Churavy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ornithomimus_OC_Harfa_Praha.jpg",
+    "caption": "似鳥龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。這是展示用模型，部分手部姿勢或頭部細節與目前研究不同。",
+    "type": "模型照片",
+    "src": "./photos/ornithomimus-life.webp"
+  },
+  "plateosaurus-life": {
+    "title": "Plateosaurus OC Harfa Praha.jpg",
+    "author": "Mojmir Churavy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Plateosaurus_OC_Harfa_Praha.jpg",
+    "caption": "板龍復原模型的實拍照片。模型的顏色、皮膚與姿勢是復原推測，不是活恐龍的照片。這是展示用模型，部分手部姿勢或頭部細節與目前研究不同。",
+    "type": "模型照片",
+    "src": "./photos/plateosaurus-life.webp"
+  },
+  "compsognathus-life": {
+    "title": "Compsognathus, Senckenberg, 2017-10-12.jpg",
+    "author": "Szilas",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Compsognathus,_Senckenberg,_2017-10-12.jpg",
+    "caption": "Senckenberg 自然博物館的美頜龍羽毛復原模型實拍。羽毛分布、顏色與姿勢是復原推測，不是活恐龍的照片。",
+    "type": "模型照片",
+    "src": "./photos/compsognathus-life.webp"
+  }
+}
