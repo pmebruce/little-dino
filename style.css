@@ -24,3 +24,5 @@ body{font-size:20px}.eyebrow,.section-head .eyebrow{font-size:16px;letter-spacin
 @media(max-width:400px){.grid{grid-template-columns:minmax(0,1fr)}.card-body{padding:20px}.card h2{margin-inline:0;column-gap:4px}.card .ruby>span{font-size:32px}.card .ruby{column-gap:3px}.card .phonetic{font-size:18px}.picture{height:230px}.sounds{flex-direction:row}.game-options{grid-template-columns:minmax(0,1fr)}.game-choice img{height:180px}.choice-name .ruby>span{font-size:28px}.choice-name .phonetic{font-size:16px}}
 
 .speech-strip{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 22px;flex-wrap:wrap}.speech-strip .status{margin:0;font-size:18px;line-height:1.7}.speech-strip button{font-size:18px;background:#e9eedf;padding:10px 15px;border-radius:12px;min-height:44px}.choice-name .phonetic{font-size:16px!important}
+
+.brand-logo{width:44px;height:44px;flex-shrink:0;border-radius:12px;object-fit:cover}.brand{gap:10px}@media(max-width:540px){.brand-logo{width:38px;height:38px;border-radius:10px}.brand{gap:7px}}
