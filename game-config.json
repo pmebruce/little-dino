@@ -1,0 +1,106 @@
+{
+  "mode": "fossil",
+  "title": "化石挖掘隊｜恐龍探險家",
+  "subtitle": "刷開沙土、看骨架特徵，找出化石的主人。這裡使用博物館骨架展示照片。",
+  "language": "zh-TW",
+  "progressKey": "dino-fossil-v1",
+  "parentKey": "",
+  "items": [
+    {
+      "id": "brachiosaurus",
+      "label": "腕龍",
+      "say": "腕龍",
+      "hint": "前腳較長、肩膀高、長脖子",
+      "clue": "我有長脖子，前腳比後腳長，肩膀特別高。",
+      "explanation": "這是腕龍！前腳較長、肩膀高、長脖子。",
+      "starter": true,
+      "photo": "./photos/brachiosaurus.webp",
+      "credit": "復原骨架展示 · Matt Wedel · CC BY 3.0。菲爾德博物館外的腕龍復原骨架，以腕龍正模標本為基礎，缺失部分參考近親長頸巨龍補配。",
+      "source": "https://commons.wikimedia.org/wiki/File:Brachiosaurus_mount.jpg"
+    },
+    {
+      "id": "triceratops",
+      "label": "三角龍",
+      "say": "三角龍",
+      "hint": "三根角、寬大的頸盾",
+      "clue": "我的臉上有三根角，頭後面還有一片寬大的頸盾。",
+      "explanation": "這是三角龍！三根角、寬大的頸盾。",
+      "starter": true,
+      "photo": "./photos/triceratops.webp",
+      "credit": "骨架展示 · Vanadium Erbium · CC BY 4.0。三角龍的骨架展示照片。觀察頭骨上的角和寬大的頭盾。照片來源未說明每塊骨骼是否為原始化石。",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Triceratops_skeleton.jpg"
+    },
+    {
+      "id": "stegosaurus",
+      "label": "劍龍",
+      "say": "劍龍",
+      "hint": "背上骨板、尾端尖刺",
+      "clue": "我的背上有大片骨板，尾巴末端有尖刺。",
+      "explanation": "這是劍龍！背上骨板、尾端尖刺。",
+      "starter": true,
+      "photo": "./photos/stegosaurus.webp",
+      "credit": "骨架展示 · Motokoka · CC BY-SA 4.0。東京國立科學博物館的劍龍骨架展示。觀察背上骨板與尾端尖刺；展示可能包含複製與補配骨骼。",
+      "source": "https://commons.wikimedia.org/wiki/File:Stegosaurus_Skeleton.jpg"
+    },
+    {
+      "id": "ankylosaurus",
+      "label": "甲龍",
+      "say": "甲龍",
+      "hint": "身體披甲、尾巴末端有骨槌",
+      "clue": "我身上有護甲，尾巴末端還有一個大骨槌。",
+      "explanation": "這是甲龍！身體披甲、尾巴末端有骨槌。",
+      "starter": true,
+      "photo": "./photos/ankylosaurus.webp",
+      "credit": "骨架展示 · Gary Todd · CC0 1.0。江西省博物館的甲龍骨架展示照片，依照片來源標示為甲龍。展品可能包含複製與復原部分。",
+      "source": "https://commons.wikimedia.org/wiki/File:Ankylosaurus_Skeleton_(31556851166).jpg"
+    },
+    {
+      "id": "diplodocus",
+      "label": "梁龍",
+      "say": "梁龍",
+      "hint": "細長脖子、非常長的尾巴",
+      "clue": "我有細長脖子，身體後方拖著非常長的細尾巴。",
+      "explanation": "這是梁龍！細長脖子、非常長的尾巴。",
+      "starter": true,
+      "photo": "./photos/diplodocus.webp",
+      "credit": "骨架展示 · Ryan Schwark · CC0 1.0。史密森尼國立自然史博物館 Deep Time 展區的梁龍骨架展示。注意長脖子與細長的尾巴。",
+      "source": "https://commons.wikimedia.org/wiki/File:Diplodocus_skeleton_NMNH.jpg"
+    },
+    {
+      "id": "parasaurolophus",
+      "label": "副櫛龍",
+      "say": "副櫛龍",
+      "hint": "向後伸的長頭冠",
+      "clue": "我的嘴像鴨嘴，頭頂有一支往後伸的長頭冠。",
+      "explanation": "這是副櫛龍！向後伸的長頭冠。",
+      "starter": true,
+      "photo": "./photos/parasaurolophus.webp",
+      "credit": "化石骨架展示 · Zissoudisctrucker · CC BY-SA 4.0。菲爾德博物館的副櫛龍化石骨架展示照片。這個展示的頭冠較彎，屬內不同種類的頭冠形狀會不同；展示也可能包含補配部分。",
+      "source": "https://commons.wikimedia.org/wiki/File:FMNH_Parasaurolophus_fossil.jpg"
+    },
+    {
+      "id": "velociraptor",
+      "label": "迅猛龍",
+      "say": "迅猛龍",
+      "hint": "小型身體、長尾巴、腳上彎爪",
+      "clue": "我是小型肉食恐龍，有羽毛、長尾巴，腳上有彎爪。",
+      "explanation": "這是迅猛龍！小型身體、長尾巴、腳上彎爪。",
+      "starter": true,
+      "photo": "./photos/velociraptor.webp",
+      "credit": "骨架展示 · Eduard Solà Vázquez (Esv) · CC BY 3.0。比利時皇家自然科學研究所的迅猛龍骨架展示。骨架照片不會保留牠生前的羽毛外觀。",
+      "source": "https://commons.wikimedia.org/wiki/File:Velociraptor_skeleton.jpg"
+    },
+    {
+      "id": "tyrannosaurus",
+      "label": "暴龍",
+      "say": "暴龍",
+      "hint": "大頭、短手、強壯後腿",
+      "clue": "我有很大的頭、很短的手，站在兩隻強壯的後腿上。",
+      "explanation": "這是暴龍！大頭、短手、強壯後腿。",
+      "starter": true,
+      "photo": "./photos/tyrannosaurus.webp",
+      "credit": "骨架展示 · Connie Ma · CC BY-SA 2.0。芝加哥菲爾德博物館的 Sue 暴龍骨架展示。完整展示會包含補配部分，頭骨展示方式也可能使用複製件。",
+      "source": "https://commons.wikimedia.org/wiki/File:Sues_skeleton.jpg"
+    }
+  ]
+}
