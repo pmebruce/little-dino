@@ -6,7 +6,7 @@
 var me=document.currentScript,BASE=new URL('voice-zh/',(me&&me.src)||location.href).href,VER=(me&&me.dataset.v)||'1';
 var synth=window.speechSynthesis;if(!synth||!synth.speak)return;
 var nativeSpeak=synth.speak.bind(synth),nativeCancel=synth.cancel.bind(synth),proto=Object.getPrototypeOf(synth);
-var map=null,eager=[],ctx=null,buffers={},loading={},queue=[],cur=null,stopCur=null,htmlAudio=null,warmed=false,unlocked=false;
+var map=null,english={},eager=[],ctx=null,buffers={},loading={},queue=[],cur=null,stopCur=null,htmlAudio=null,warmed=false,unlocked=false;
 var HAN=/[\u3400-\u9fff]/;
 function norm(t){return String(t==null?'':t).replace(/\s+/g,' ').trim()}
 function clean(p){return p.replace(/^[\s，、：:·\-—]+|[\s，、：:·\-—]+$/g,'')}
@@ -22,6 +22,7 @@ var manifestDeadline=new Promise(function(resolve){
 var mapReady=Promise.race([manifestRequest,manifestDeadline]).catch(function(){return {}}).then(function(manifest){
  clearTimeout(manifestTimer);
  map=manifest&&manifest.clips||{};
+ english=manifest&&manifest.english_clips||{};
  eager=manifest&&Array.isArray(manifest.eager)?manifest.eager:[];
  if(ctx)warm();
 });
@@ -35,7 +36,11 @@ function isChinese(u){
  var lang=String(u.lang||'').toLowerCase();
  return (!lang||lang.indexOf('zh')===0||lang.indexOf('cmn')===0)&&HAN.test(norm(u.text));
 }
-function lookup(u){if(!map||!isChinese(u))return null;var t=norm(u.text);
+function isEnglish(u){return /^en(?:[-_]|$)/i.test(String(u.lang||''))}
+function supports(u){return isChinese(u)||isEnglish(u)}
+function lookup(u){if(!map)return null;var t=norm(u.text);
+ if(isEnglish(u))return Object.prototype.hasOwnProperty.call(english,t)?[english[t]]:null;
+ if(!isChinese(u))return null;
  if(map[t])return [map[t]];var c=clean(t);if(map[c])return [map[c]];
  var ps=pieces(t),fs=[];for(var i=0;i<ps.length;i++){var p=clean(ps[i]);if(!p)continue;if(!HAN.test(p)&&/^[\s\p{P}\p{S}]*$/u.test(p))continue;var f=map[p]||map[p.replace(/[。！？!?；]+$/,'')]||map[p+'。'];if(!f)return null;fs.push(f)}
  return fs.length?fs:null}
@@ -50,7 +55,7 @@ function toNative(item){
 function runNative(item){cur=item;item.native=true;var w=function(){item.u.removeEventListener('end',w);item.u.removeEventListener('error',w);if(cur===item){cur=null;pump()}};item.u.addEventListener('end',w);item.u.addEventListener('error',w);try{nativeSpeak(item.u)}catch(e){w();fire(item.u,'error')}}
 function playBuffers(item,bufs){if(ctx.state!=='running'){playHtml(item);return}var i=0,vol=typeof item.u.volume==='number'?item.u.volume:1,src=null,timer=0;
  stopCur=function(){clearTimeout(timer);if(src){src.onended=null;try{src.stop()}catch(e){}}};
- function step(){if(cur!==item)return;if(i>=bufs.length){done(item);return}try{if(ctx.state!=='running'){toNative(item);return}var s=ctx.createBufferSource(),g=ctx.createGain();g.gain.value=vol;s.buffer=bufs[i];s.__clip=item.fs[i];s.connect(g);g.connect(ctx.destination);s.onended=function(){i++;timer=setTimeout(step,i<bufs.length?110:0)};src=s;s.start(0);if(!item.started){item.started=true;fire(item.u,'start')}}catch(e){toNative(item)}}
+ function step(){if(cur!==item)return;if(i>=bufs.length){done(item);return}try{if(ctx.state!=='running'){toNative(item);return}var s=ctx.createBufferSource(),g=ctx.createGain();g.gain.value=vol;s.buffer=bufs[i];if(isEnglish(item.u))s.playbackRate.value=(item.u.rate||.8)/.8;s.__clip=item.fs[i];s.connect(g);g.connect(ctx.destination);s.onended=function(){i++;timer=setTimeout(step,i<bufs.length?110:0)};src=s;s.start(0);if(!item.started){item.started=true;fire(item.u,'start')}}catch(e){toNative(item)}}
  step()}
 function playHtml(item){
  if(!htmlAudio){toNative(item);return}
@@ -78,7 +83,7 @@ function playHtml(item){
   htmlAudio.onended=function(){clearTimeout(startTimer);index++;step()};
   htmlAudio.onerror=failed;
   try{
-   htmlAudio.volume=volume;
+   htmlAudio.volume=volume;htmlAudio.playbackRate=isEnglish(item.u)?(item.u.rate||.8)/.8:1;
    htmlAudio.src=url(item.fs[index]);
    startTimer=setTimeout(failed,4000);
    var playback=htmlAudio.play();
@@ -91,7 +96,7 @@ function pump(){
  if(cur||!queue.length)return;
  var item=queue.shift();
  cur=item;
- if(!map&&isChinese(item.u)){
+ if(!map&&supports(item.u)){
   mapReady.then(function(){if(cur===item)playItem(item)});
  }else playItem(item);
 }
@@ -103,7 +108,7 @@ function playItem(item){
  var settled=false,t=setTimeout(function(){if(!settled){settled=true;playHtml(item)}},800);
  Promise.all(item.fs.map(load)).then(function(b){if(!settled){settled=true;clearTimeout(t);playBuffers(item,b)}},function(){if(!settled){settled=true;clearTimeout(t);playHtml(item)}})}
 synth.speak=function(u){
- if(!cur&&!queue.length&&(!isChinese(u)||(map&&!lookup(u))))return nativeSpeak(u);
+ if(!cur&&!queue.length&&(!supports(u)||(map&&!lookup(u))))return nativeSpeak(u);
  queue.push({u:u});
  pump();
 };
